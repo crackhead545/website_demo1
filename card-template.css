@@ -1,0 +1,113 @@
+ 
+        body {
+            height: 100vh;
+            min-width:580px;
+            width: 100%;
+            margin: 0px;
+            background-color: #F1E7E7;
+
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+            width: 100%;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1rem;
+            min-height: 65vh;
+            width: 90vw;
+            min-width: 20rem;
+            background-color: #F1E7E7;
+
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: 2rem;
+            padding: 1em;
+            min-width: 20%;
+            max-width: 15rem;
+            min-height: 50vh;
+            border-radius: 1rem;
+            /* border: 1px black solid; */
+            color: rgb(44, 40, 35);
+            background-color: #102E50;
+            background-image: url(../Images/jess-bailey-q10VITrVYUM-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            overflow-x: hidden;
+            transition: transform 0.3s ease-in-out 0s;
+
+        }
+
+        .card-text {
+            text-align: justify;
+            font-size: 0.7em;
+            max-width: 60ch;
+        }
+
+        .card:hover {
+            transform: translateY(-3rem);
+        }
+
+
+        /* navbar */
+        header img {
+            height: 2.6%;
+            width: 2.6%;
+            cursor: pointer;
+        }
+
+        li,a,button {
+            text-decoration: none;
+            color: #F1E7E7;
+            font-size: 1.09em;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-height: 2.5vh;
+            padding: 1rem;
+            background-color: #222831;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 1rem;
+            margin: 0rem 1rem 0rem 1rem;
+
+        }
+
+        .navbar li a:hover {
+            color: #06767c;
+        }
+
+        .navbar button {
+            padding: 0.2rem 1rem 0.2rem 1rem;
+            border-radius: 1rem;
+            background-color: #00ADB5;
+            cursor: pointer;
+            transition: 0.6s ease 0s;
+        }
+
+        .navbar button:hover {
+            background-color: #06767c;
+        }
+
+        /* the navbar gets split by the cards after resizing the screen  */
+ 
